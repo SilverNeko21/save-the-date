@@ -1,5 +1,10 @@
 body{
     margin: 0%;
+    background-image: url("https://pre00.deviantart.net/35df/th/pre/f/2015/310/a/9/hakua_shiodome___shomin_sample___minimalist_by_icyro_kun-d9fooxa.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    overflow: hidden; 
 }
 
 #container{
@@ -11,6 +16,7 @@ body{
     display:flex;
     flex-direction: row;
     justify-content: center;
+    border: 1px solid black;
 }
 
 #days-of-week{
