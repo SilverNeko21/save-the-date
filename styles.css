@@ -1,10 +1,13 @@
-body{
-    margin: 0%;
-    background-image: url("https://pre00.deviantart.net/35df/th/pre/f/2015/310/a/9/hakua_shiodome___shomin_sample___minimalist_by_icyro_kun-d9fooxa.png");
-    background-repeat: no-repeat;
+html, body{
+    width: 100%;
+	height: 100%;
+	margin: 0%;
+    padding: 0%;
+    background-image: url("https://orig00.deviantart.net/baf9/f/2015/294/6/e/tomori_nao_minimalist_by_icyro_kun-d9dpyxg.png");
+    background-repeat: no-repeat, repeat;
     background-size: cover;
     background-position: center;
-    overflow: hidden; 
+    overflow: hidden;
 }
 
 #container{
@@ -17,6 +20,7 @@ body{
     flex-direction: row;
     justify-content: center;
     border: 1px solid black;
+    background-color: #22e29c;
 }
 
 #days-of-week{
@@ -34,13 +38,23 @@ body{
 
 .row{
     width: 100%;
-    height: 20%;
+    height: 15%;
     display: flex;
     flex-direction: row;
 }
 
 .day{
     flex-grow: 1;
-    padding: 20px;
+    padding: 1%;
     border: 1px solid black;
+    width: 100%;
+    height: 80%;
+}
+
+#bday{
+    background-image: url("https://i.pinimg.com/236x/b3/6f/a3/b36fa3aa1e346bbd736beba08c713cbb--star-clipart-clipart-images.jpg");
+    background-repeat: no-repeat, repeat;
+    background-size: cover;
+    background-position: center;
+    overflow: hidden;
 }
